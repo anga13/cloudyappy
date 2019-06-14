@@ -23,7 +23,7 @@ function initDB() {
     logger.info('AppEnv', appEnv)
     const credentials = appEnv.services.cloudantNoSQLDB[0].credentials
     logger.info('credentials', credentials)
-    return Cloudant(credentials)
+    return Cloudant(credentials.url)
 }
 
 module.exports = {
