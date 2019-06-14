@@ -21,7 +21,7 @@ function initDB() {
 
     // Initialize database with credentials for CF service named 'cloudantNoSQLDB'
     logger.info('AppEnv', appEnv)
-    const credentials = appEnv.getServiceCreds('cloudantNoSQLDB')
+    const credentials = appEnv.services.cloudantNoSQLDB.credentials
     logger.info('credentials', credentials)
     return Cloudant(credentials)
 }
