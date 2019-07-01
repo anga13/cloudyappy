@@ -1,4 +1,3 @@
-const db = require('./db')
 const controller = require('./controller')
 jest.mock('./db')
 
