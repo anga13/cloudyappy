@@ -15,7 +15,7 @@
     "express-pino-logger": "^4.0.0",
     "handlebars": "^4.7.3",
     "pino": "^5.12.6",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
